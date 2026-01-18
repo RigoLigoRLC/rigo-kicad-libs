@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Rigo_Generic_BGA_Packages") (type "KiCad") (uri "${RIGO_LIB_ROOT}/footprints/Generic_BGA_Packages.pretty") (options "") (descr "The custom BGA packages that doesn't belong anywhere"))
+	(lib (name "Rigo_Breakout_Board") (type "KiCad") (uri "${RIGO_LIB_ROOT}/footprints/Rigo_Breakout_Board.pretty") (options "") (descr "Footprints for making breakout boards"))
+	(lib (name "Rigo_Chinese_Components") (type "KiCad") (uri "${RIGO_LIB_ROOT}/footprints/Rigo_Chinese_Components.pretty") (options "") (descr "Footprints for sketchy Chinese components"))
+	(lib (name "Rigo_Connectors") (type "KiCad") (uri "${RIGO_LIB_ROOT}/footprints/Rigo_Connectors.pretty") (options "") (descr "Strange connectors"))
+)

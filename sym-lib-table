@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name "Rigo_DevBoards")(type "KiCad")(uri "${RIGO_LIB_ROOT}/symbols/Rigo_DevBoards.kicad_sym")(options "")(descr "Development boards mountable onto PCB"))
+  (lib (name "Rigo_Generic_Chips")(type "KiCad")(uri "${RIGO_LIB_ROOT}/symbols/Generic_Chips.kicad_sym")(options "")(descr "Chips that may come from many vendors but with same pinout"))
+  (lib (name "Rigo_Communication_Chips")(type "KiCad")(uri "${RIGO_LIB_ROOT}/symbols/Rigo_Communication_Chips.kicad_sym")(options "")(descr "Communication PHY, controllers, etc"))
+  (lib (name "Rigo_Loongson_Series_2")(type "KiCad")(uri "${RIGO_LIB_ROOT}/symbols/Rigo_Loongson_Series_2.kicad_sym")(options "")(descr "Loongson 2 series chips"))
+  (lib (name "Rigo_Power_Chips")(type "KiCad")(uri "${RIGO_LIB_ROOT}/symbols/Rigo_Power_Chips.kicad_sym")(options "")(descr "Various power supply chips"))
+  (lib (name "Rigo_Volatile_Memory")(type "KiCad")(uri "${RIGO_LIB_ROOT}/symbols/Rigo_Volatile_Memory.kicad_sym")(options "")(descr "Volatile memory, SRAM, SDRAM, etc"))
+  (lib (name "Rigo_RM_Components")(type "KiCad")(uri "${RIGO_LIB_ROOT}/symbols/RM_Components.kicad_sym")(options "")(descr "Components solely used in RoboMaster"))
+  (lib (name "Rigo_WCH_MCU")(type "KiCad")(uri "${RIGO_LIB_ROOT}/symbols/WCH_MCU.kicad_sym")(options "")(descr "Microcontrollers from WCH"))
+  (lib (name "Rigo_Puya_MCU")(type "KiCad")(uri "${RIGO_LIB_ROOT}/symbols/Rigo_MCU_Puya.kicad_sym")(options "")(descr "Microcontrollers from Puya"))
+  (lib (name "Rigo_Connectors")(type "KiCad")(uri "${RIGO_LIB_ROOT}/symbols/Rigo_Connectors.kicad_sym")(options "")(descr "Strange connectors not included in KiCad library"))
+)
