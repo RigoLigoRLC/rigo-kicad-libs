@@ -1,0 +1,129 @@
+(footprint "SW_SPDT_3Pin_Vertical_THT_P2.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Single-pole double-throw 3-pin THT vertical mounted sliding switch")
+	(tags "SPDT switch")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9f0e56e1-3e48-4b6a-b3b4-fce0c41126ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT_3Pin_Vertical_THT_P2.5mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "46911e5b-a8ed-4448-ba8b-7cf0a223e0e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b7dd526-eb12-4d84-af99-45b2d58eac2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4696eb6f-24d8-4abc-86b8-4294b1642ea8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.75 -4.55)
+		(end 1.75 4.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bb981fe8-e0c4-4a28-94c7-ef2248d91e6c")
+	)
+	(fp_rect
+		(start 1.75 -1.75)
+		(end 3.75 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0b063cba-e58e-47cb-a76c-51bd06cbfc43")
+	)
+	(fp_rect
+		(start -1.75 -4.55)
+		(end 3.75 4.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7388bd23-690b-4f9f-bb69-12b284bc1516")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b80b44cc-471d-4cd3-8819-08de32e2d227")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.5)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fddbfcf1-ed0f-422c-b796-6d5d189d293b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f5cf19d-9aab-4ba8-a9a1-b2c2974fc78e")
+	)
+	(pad "3" thru_hole circle
+		(at 0 2.5)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1aa461c1-19c1-4065-bd67-75401afb327d")
+	)
+	(embedded_fonts no)
+)
