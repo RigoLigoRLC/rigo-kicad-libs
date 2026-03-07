@@ -1,13 +1,17 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.99")
 	(symbol "HPM5301EVKLite_Hat"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 31.496 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,6 +20,8 @@
 		)
 		(property "Value" ""
 			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,29 +30,35 @@
 		)
 		(property "Footprint" ""
 			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "HPM5301EVKLite_Hat_0_1"
@@ -769,18 +781,6 @@
 		(symbol "HPM5301EVKLite_Hat_1_1"
 			(polyline
 				(pts
-					(xy 6.35 -26.67) (xy -7.62 -26.67)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 6.35 26.67) (xy -7.62 26.67)
 				)
 				(stroke
@@ -792,9 +792,9 @@
 				)
 			)
 			(arc
-				(start 6.35 -26.67)
-				(mid 7.248 -26.298)
-				(end 7.62 -25.4)
+				(start 6.35 26.67)
+				(mid 7.248 26.298)
+				(end 7.62 25.4)
 				(stroke
 					(width 0)
 					(type default)
@@ -804,9 +804,9 @@
 				)
 			)
 			(arc
-				(start 7.62 25.4)
-				(mid 7.248 26.298)
-				(end 6.35 26.67)
+				(start 7.62 -25.4)
+				(mid 7.248 -26.298)
+				(end 6.35 -26.67)
 				(stroke
 					(width 0)
 					(type default)
@@ -815,12 +815,16 @@
 					(type none)
 				)
 			)
-			(text "BACK SIDE\nBOARD EDGE->"
-				(at 0 29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+			(polyline
+				(pts
+					(xy 6.35 -26.67) (xy -7.62 -26.67)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(text "HPM5301EVKLite"
@@ -828,6 +832,14 @@
 				(effects
 					(font
 						(size 1.143 1.143)
+					)
+				)
+			)
+			(text "BACK SIDE\nBOARD EDGE->"
+				(at 0 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -858,13 +870,240 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "Loongson_EJTAG_2x4P_Pitch1.27mm_Conn"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Loongson_EJTAG_2x4P_Pitch1.27mm_Conn_0_0"
+			(pin input line
+				(at 8.89 5.08 180)
+				(length 2.54)
+				(name "~{TRST}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 11.43 270)
+				(length 2.54)
+				(name "V_{REF}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 2.54 180)
+				(length 2.54)
+				(name "TDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 -5.08 180)
+				(length 2.54)
+				(name "TCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "TDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 -2.54 180)
+				(length 2.54)
+				(name "TMS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -11.43 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Loongson_EJTAG_2x4P_Pitch1.27mm_Conn_0_1"
+			(rectangle
+				(start -6.35 8.89)
+				(end 6.35 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Loongson_EJTAG_2x4P_Pitch1.27mm_Conn_1_0"
+			(pin input line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "DOTEST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "Loongson_EJTAG_Conn"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,6 +1112,8 @@
 		)
 		(property "Value" "Loongson EJTAG"
 			(at 1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,29 +1122,35 @@
 		)
 		(property "Footprint" "Connector_IDC:IDC-Header_2x07_P2.54mm_Vertical"
 			(at 1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Loongson_EJTAG_Conn_0_0"
@@ -927,7 +1174,8 @@
 			)
 			(pin power_in line
 				(at 0 -16.51 90)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -963,7 +1211,8 @@
 			)
 			(pin no_connect line
 				(at -12.7 -7.62 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "KEY"
 					(effects
 						(font
@@ -1035,7 +1284,8 @@
 			)
 			(pin power_in line
 				(at 0 -16.51 90)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -1071,7 +1321,8 @@
 			)
 			(pin power_in line
 				(at 0 -16.51 90)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -1107,7 +1358,8 @@
 			)
 			(pin power_in line
 				(at 0 -16.51 90)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -1175,13 +1427,18 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RP2040-Zero-Breakout"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,6 +1447,8 @@
 		)
 		(property "Value" "RP2040-Zero"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,29 +1457,35 @@
 		)
 		(property "Footprint" "Rigo_Breakout_Board:RP2040-Zero"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.waveshare.com/wiki/RP2040-Zero"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "RP2040-Zero-Breakout_0_0"
@@ -1652,5 +1917,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
